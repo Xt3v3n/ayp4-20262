@@ -16,3 +16,10 @@ class Lista:
             while actual.siguiente != None:
                 actual = actual.siguiente
             actual.siguiente = nuevo_nodo
+
+    def contar_nodos(self, nodo=None):
+        
+        if nodo is None:
+            return 0
+
+        return 1 + self.contar_nodos(nodo.siguiente)
