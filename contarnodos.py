@@ -23,3 +23,12 @@ class Lista:
             return 0
 
         return 1 + self.contar_nodos(nodo.siguiente)
+
+def buscar(self, dato, nodo=None):
+        if nodo is None:
+            return False
+
+        if nodo.dato == dato:
+            return True
+
+        return self.buscar(dato, nodo.siguiente)
