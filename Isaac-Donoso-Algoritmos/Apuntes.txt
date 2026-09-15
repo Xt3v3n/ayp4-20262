@@ -1,0 +1,40 @@
+ALGORITMOS 4
+COMANDOS GIT
+git init -> CONVIERTE CARPETA ACTUAL EN REPOSITORIO GIT (solo una vez por proyecto)
+git status ->   en qué rama estás
+
+                qué archivos cambiaron
+
+                qué falta por guardar
+
+git add  -> que cambios deseo guardar ->    git add . -> Guardar todo
+                                            git add  (Nombre archivo) -> Guardar archivo especifico
+                                            git commit -m "mensaje de que se hizo" -> guardar local con un mensaje
+git remote add origin (+ enlace del repositorio) -> conecta el repositorio local a Github se verifica con -> git remote -v
+
+git branch  -> muestra las ramas
+
+git branch -M main -> cambia el nombre a main
+
+git push -> sube los commit a GitHub -> git push -u origin main -> Primera vez
+                                        git push -> despues solo este 
+
+git pull -> Trae cambios de GitHub  si es para otros computadores o si se utiliza otros
+
+git log  -> Muestra el Historial de los Commits
+
+git mv +Nombre del archivo -> Para renombrar los archivos 
+
+git rm +nombre del archivo  -> Elimina archivos y git lo registra
+
+
+
+
+
+
+
+
+
+
+
+            
